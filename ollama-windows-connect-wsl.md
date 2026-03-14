@@ -78,8 +78,10 @@ ollama run qwen
 * **Gak Perlu Install `zstd` dkk:** Karena kita gak jalanin installer Linux sama sekali.
 
 **Sudah muncul daftar model Qwen-nya di WSL? Kalau sudah, selamat! Kamu sudah resmi jadi "Bridge Master" Windows-Linux.** Ada lagi yang mau ditanyakan soal settingan GPU-nya?
-```bash
+
 running model qwen
+make sure claude run in your windows 
+```bash
 
 ollama launch claude --model qwen2.5-coder
 ````
